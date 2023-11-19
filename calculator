@@ -1,0 +1,19 @@
+# Code created by Seafoury
+# Feel free to modify this code and add new features! (:
+i = input("Press A for addition, Press S for subtraction, Press M for multiplication, Press D for division")
+if i == str("a"):
+    x = input("Number 1")
+    y = input("Number 2")
+    print(int(x)+int(y))
+if i == str("s"):
+    x = input("Number 1")
+    y = input("Number 2")
+    print(int(x)-int(y))
+if i == str("m"):
+    x = input("Number 1")
+    y = input("Number 2")
+    print(int(x)*int(y))
+if i == str("d"):
+    x = input("Number 1")
+    y = input("Number 2")
+    print(int(x)/int(y))
